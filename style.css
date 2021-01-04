@@ -11,6 +11,19 @@
     display: block;
     clear: both;
 }
+header{
+    background-color: rgb(39, 119, 139);
+    color: skyblue;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    font-variant-caps: all-petite-caps;
+    color:rgb(204, 173, 115);
+    background-color: rgb(39, 119, 139)
+}
 #main-screen{
     height: 900px;
     width: 100%;
@@ -19,7 +32,9 @@
     background-size: cover;
     background-position: center;
 }
-
+.navbar, .navbar-expand-lg, .navbar-dark, .bg-dark, .navbar-collapse, .nav-link, .active, .navbar-nav{
+    background-color: rgb(39, 119, 139)
+}
 body{
     background-color:rgb(204, 173, 115);
 }
