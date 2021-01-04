@@ -5,7 +5,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:rgb(204, 173, 115);
 }
-
 .clearfix::after{
     content: " ";
     display: block;
@@ -15,8 +14,6 @@ header{
     background-color: rgb(39, 119, 139);
     color: skyblue;
 }
-
-
 h1 {
     font-size: 50px;
     font-style: italic;
@@ -38,7 +35,6 @@ h1 {
 body{
     background-color:rgb(204, 173, 115);
 }
-
 h2{
     color: whitesmoke;
     text-decoration: underline;
@@ -80,4 +76,59 @@ h2{
     height: 900px;
     margin: 5%;
     background-color: rgb(39, 119, 139)
+}
+@media screen and (max-width: 992px){
+    .navbar-collapse.collapse {
+        display: block!important;
+        width: auto;  
+    }
+      
+    .img1{
+            height: 275px;
+            width: 375px;
+            float: right;
+            background-color: rgb(39, 119, 139)
+        }
+    .img2{
+            height: 275px;
+            width: 375px;
+            float: left;
+            background-color: rgb(39, 119, 139)}
+    .bg-dark{
+        background-color:  rgb(39, 119, 139)!important;
+    }
+} 
+
+@media screen and (max-width:768px){
+    .navbar-collapse.collapse {
+        display: block!important;
+        width: auto;
+    background-color:  rgb(39, 119, 139)};
+    .img1{
+        height: 200px;
+        width: 300px;
+        float: right;
+        background-color: rgb(39, 119, 139)
+    }
+    .img2{
+        height: 200px;
+        width: 300px;
+        float: left;
+        background-color: rgb(39, 119, 139)
+    }
+}
+
+@media screen and (max-width:572px){
+    .navbar-collapse.collapse {
+        display: block!important;
+        width: auto;
+    background-color:  rgb(39, 119, 139)}
+    
+    .img1, .img2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        background-color: rgb(39, 119, 139)
+    }
 }
