@@ -125,6 +125,20 @@ a,
     background-color: rgb(39, 119, 139);
     image-rendering: pixelated;
   }
+  #scimg2 {
+    height: 275px;
+    width: 375px;
+    float: left;
+    background-color: rgb(39, 119, 139);
+    image-rendering: pixelated;
+  }
+  #scimg3 {
+    height: 275px;
+    width: 375px;
+    float: right;
+    background-color: rgb(39, 119, 139);
+    image-rendering: pixelated;
+  }
   .img2 {
     height: 275px;
     width: 375px;
@@ -149,7 +163,7 @@ a,
     width: auto;
     background-color: rgb(39, 119, 139);
   }
-  #scimg {
+  #scimg, #scimg2, #scimg3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
